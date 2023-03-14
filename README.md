@@ -4,4 +4,4 @@ Tech: HTML + Tailwind CSS
 
 Specification: https://cs50.harvard.edu/web/2020/projects/0/search/#specification
 
-Demo: https://cs50w-search.netlify.app/
+Demo: https://mancuoj-search.netlify.app/
