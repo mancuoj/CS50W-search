@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Google Images</title>
+    </head>
+
+    <body>
+        <nav>
+            <ul class="flex justify-end gap-5 p-5 font-mono">
+                <li>
+                    <a href="./index.html" class="hover:underline">Search</a>
+                </li>
+                <li>
+                    <a href="./advanced_search.html" class="hover:underline"> Advanced </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="flex items-center justify-center flex-col mt-24">
+            <div class="flex gap-4">
+                <h1 class="mb-10 text-6xl text-center font-bold font-serif">Google</h1>
+                <span class="text-xl text-sky-600 font-bold font-serif"> images </span>
+            </div>
+
+            <form action="https://www.google.com/search" class="flex w-[75%] md:w-[50%] flex-col font-mono">
+                <input
+                    type="text"
+                    name="q"
+                    class="block w-full rounded-full border border-solid border-neutral-300 outline-none hover:border-neutral-500 focus:border-neutral-500 px-5 py-2.5 mb-6"
+                />
+                <input type="hidden" name="tbm" value="isch" />
+            </form>
+        </main>
+    </body>
+</html>
