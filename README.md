@@ -1,6 +1,6 @@
 # CS50W Project 0 — Search
 
-Tech: HTML + Tailwind CSS
+Tech: HTML & Tailwind CSS
 
 Demo: https://mancuoj-search.netlify.app/
 
